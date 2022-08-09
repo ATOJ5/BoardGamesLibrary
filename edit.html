@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 
-    <meta charset='utf-8'>
+    <meta charset='UTF-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <meta author="Jose David Garcia">
     
     <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
-    <script src='js/main.js'></script>
+    
     
     <!--Roboto Font links-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,41 +27,25 @@
         <!--Data Form-->
         <div class="form-database">
             
-              <input type="text" class="name" placeholder="Name">
+              <input type="text" class="game" placeholder="BoardGame Name">
               <input type="text" class="type" placeholder="Classification/Type">
               <input type="text" class="rating" placeholder="Personal Rating">
-              <input type="text" class="Notes"placeholder="Notes">
-              <button type="button" class="addGame">Add a Game</button>
+              <input type="textarea" class="notes" placeholder="Notes">
+              <button class="addGame">Add a Game</button>
 
               <!--Data List-->
 
-              <div class="List-of-Boardgames">
-                <div class="task">
-                    <h3>Name</h3>
-                    <p>Classification/Type</p>
-                    <p>Personal Rating</p>
-                    <p>Notes</p>
+              <div class="list-of-Boardgames">
 
-                    <span class="material-symbols-outlined icon">
-                        delete
-                        </span>
-                </div>
-                <div class="task">
-                    <h3>Name</h3>
-                    <p>Classification/Type</p>
-                    <p>Personal Rating</p>
-                    <p>Notes</p>
 
-                    <span class="material-symbols-outlined icon">
-                        delete
-                        </span>
-
-                </div>
               </div>
         </div>
         </div>
 
     </div>
     
+<script src='js/functions.js'></script>
+<script src='js/main.js'></script>
+
 </body>
 </html>

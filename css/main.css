@@ -20,9 +20,9 @@ html{
     
     border-bottom: 1px solid #ccc;
     color: #ccc;
-    cursor:-webkit-grab;
+    cursor: pointer;
     background-color: #a65431;  
-    margin-bottom: 25px;
+    margin-bottom: 55px;
     width : 100%;
     box-shadow: white 2px 2px 6px;
     background-image: url("https://i.ibb.co/p1KzhTV/background.jpg"); 
@@ -66,8 +66,9 @@ h1 {
 
 .main{
     width: 80%;
-    margin: 105px auto;
+    float:none;
     padding : 25px;
+    margin : auto;
 
     
 }
@@ -79,35 +80,26 @@ figure {
     background: linear-gradient(to bottom, #D8D8D8, #585858);
     height: auto;
     padding : 10px;
+    border-radius:20px;
+    cursor:pointer;
 }
 .form-database{
     text-align: center;
 }
 
-figure img{
- 
-    border-radius:20px;
-    cursor:pointer;
-    background-color: #585858;
-    
-    
-}
-
 footer{
 
     clear:both;
-    padding: 1  0px;
-
 }
 
 footer p{
 
     font:1.4em Georgia;
     color: #ebebeb;
-    margin:5px;
+    
     text-align:center;
     font-size: 1em;
-    width: 98px auto;
+    width: 80px auto;
     padding: 10px;
     border-top:#585858 2px solid;
     text-transform: uppercase;
@@ -126,6 +118,7 @@ li {
     text-align:center;
     font-family:Arial;
     font-size: 1em;
+    outline: 2px
     
   }
   
@@ -207,6 +200,7 @@ li:active {
   color : black;
   font : bold 5px;
   font-size: 1.2em;
+  cursor : pointer;
 }
 
 /* List of Boardgames Database */
@@ -235,10 +229,11 @@ li:active {
 .ribbon {
   width: 600px;
   position: absolute;
+  top : 170px;
   left: 50%;
   margin-left: -300px;
   text-align: center;
-  font-size: 20px !important;
+  font-size: 10px !important;
   background: #d66666;
   background: linear-gradient(to bottom, #D64B4B, #AB2C2C);
   box-shadow: rgba(0,0,0,0.3) 0 1px 1px;
@@ -249,7 +244,7 @@ li:active {
   font-size: 24px !important;
   color: #030F04;
   text-shadow: #cc3b3b 0 1px 0;
-  margin: 10px;
+  margin: 5px;
   padding: 15px;
 }
 
@@ -303,6 +298,7 @@ li:active {
 
 .ribbon-stitches-bottom {
   margin-bottom:2px;
+  padding-bottom: 2px;
   border-top: 1px dashed rgba(0, 0, 0, 0.2);
   box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.3);
 }
