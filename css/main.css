@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers|Cinzel:400,700,900|Lato:100,300,400,700,900|Lobster|Lora:400,700|Mansalva|Muli:200,300,400,600,700,800,900|Open+Sans:300,400,600,700,800|Oswald:200,300,400,500,600,700|Roboto:100,300,400,500,700,900&display=swap');
+
 *,::after,*::before {
     list-style-type: none;
-
+    
 }
 
 html{
@@ -9,104 +11,110 @@ html{
   text-transform: uppercase;
   color: #ebebeb;
   min-width: 100px;
-  margin: auto;
   text-align:center;
   font-size: 1em;
+  background-color:rgb(67, 66, 66);
   
+}
+.logo{
+  text-align:center;
   
 }
-.logo {
 
-    
-    background: linear-gradient(to bottom, #a65431, #b58440);  
-    margin-bottom: 35px;
-    margin-top: 15px;
-    width : 50%;
-    height: 150px; 
-    background-position: center; 
-    background-repeat: no-repeat;
-    background-size: cover; 
-    border-radius: 10px;
-    
-
-    
+.dice-area {
+  display: inline-block;
+  text-align: center;
+  padding-left: 20px;
+}
+.dice-area img{
+  width:50px;
 }
 
-
-body {
-
-  background-position: center; 
-  background-repeat: no-repeat;
-  background-size: cover; 
-  background-image: url("https://i.ibb.co/p1KzhTV/background.jpg");
-  -webkit-backdrop-filter: blur(3px);
-  backdrop-filter: blur(3px);
+.logo-1 h3 {
+  color: #e74c3c;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+  font-size:70px;
+  line-height:1.3;
+  display: inline-block;
+  text-align:center;
 }
-
-
 
 h1 {
-
   font-size: 35px;
   font-weight: bolder;
   font-family:'Roboto', sans-serif;
   color:black;
-  
 }
 
 #h2{
-
     font:bold 1.7em Verdana;
     padding: 5px 0 5px 8px;
     color:black;
     text-align: center;
-  
+}
+
+body {
+  margin:0px;
 }
 
 .main{
-    width: 90%;
-    float:none;
-    padding : 0px;
+    display: flex;
+    flex-wrap : nowrap;
+    justify-content: space-around;
+    align-content: center;
+    width: 93%;
     margin : auto;
-
-    
+    background-color:grey;
+    height:550px;
+    padding-top:25px;
 }
 
 figure {
     float:left;
-    border-radius: 1.5em;
+    border-radius: 2em;
     border-color :#27262c;
     background: rgb(234, 234, 96);
-    
+    height:auto;
     padding : 20px;
-    border-radius:20px;
     cursor:pointer;
-}
-.form-database{
-    text-align: center;
+    border:1px solid;
+    height:450px;
 }
 
-footer{
+img {
+    width: 85%;
+}
 
+img:hover {
+    opacity: 0.75;
+}
+
+.footer{
     clear:both;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    align-content: flex-end;
+    width:100%;
+    align-items: flex-end;
+    
 }
 
-footer p{
+.footer p{
 
     font:1.4em Georgia;
     color: #ebebeb;
     text-align:center;
     font-size: 1em;
-    width: 80px auto;
+    width: auto;
     padding: 10px;
     border-top: black solid;
-    text-transform: uppercase;
-    
+    text-transform: uppercase;    
+    width: 100%;
 }
-  
+
 /* LI HOVER */
-
-
 li {
     padding: 1rem 2rem 1.15rem;
     text-transform: uppercase;
@@ -114,11 +122,10 @@ li {
     color: black;
     margin: auto;
     text-align: center;
-    font-family: "Luckiest Guy", cursive;
+    font-family: "Luckiest Guy";
     font-size: 1em;
     outline: 2px;
-    font-size:4vh;
-    
+    font-size:4vh; 
   }
   
 li:hover {
@@ -155,12 +162,15 @@ li:active {
 /* Form CSS */
 
 .form-database {
-
-    display : block;
+ 
     width : 50%;
     margin: 1rem  auto;
     display : flex;
     flex-direction: column;
+    text-align: center;
+    border-radius : 1em;
+    padding : 10px;
+    background-color: black;
 
 }
 
@@ -202,10 +212,16 @@ li:active {
 
 /* List of Boardgames Database */
 
-.List-of-Boardgames {
+.list-of-Boardgames {
 
-  display:flex;
+  width : 50%;
+  margin: 1rem  auto;
+  display : flex;
   flex-direction: column;
+  text-align: center;
+  border-radius : 1em;
+  padding : 10px;
+  background-color: black;
 }
 
 .task {
